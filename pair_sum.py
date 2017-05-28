@@ -7,6 +7,5 @@ def pairSum(x,y):
             Sum = x[i]+x[i+1]
             if Sum == y:
                 outputlist.append((x[i], x[i+1]))
-
+        
         return outputlist
-    print outputlist
