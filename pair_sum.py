@@ -8,6 +8,8 @@ def pairSum(aList, thesum):
         if pairsum == thesum:
             pairs.append((aList[a], aList[b]))
             a += 1
+        elif pairsum < thesum:
+            a += 1
         else:
             b -=1
 
