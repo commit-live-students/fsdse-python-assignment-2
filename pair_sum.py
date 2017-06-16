@@ -1,7 +1,7 @@
 def pairSum(l,n):
     sum = []
     for i in range(0,len(l)):
-        for j in range(0,len(l)-1):
+        for j in range(0,len(l)):
             if(l[i]+l[j]==n):
                 sum.append((l[i],l[j]))
     return sum
