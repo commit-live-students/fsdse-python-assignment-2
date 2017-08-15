@@ -13,4 +13,4 @@ def pairSum(n, number):
 
     else:
         return False
-print pairSum([1,2,3,4],5)
+print pairSum([1,2,3,4,6,7,8,9,10],15)
